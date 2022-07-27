@@ -1,0 +1,58 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="shortcut icon", href="/static/Images/new_logo.png", type="image/x-icon")
+        title #{title}
+        style 
+            include ../static/style.css
+    body 
+        nav#navbar
+            ul
+                div#logo
+                    img(src="/static/Images/new_logo.png", alt="", srcset="")
+                    | RDA
+                li #[a(href="http://home")  Home]
+                li #[a(href="http://about")  About]
+                li #[a(href="http://services")  Services]
+                li #[a(href="http:/classinfo")  Class Info]
+                li #[a(href="http://contactus")  Contact Us]
+        section#introsection
+            div Welcome to Rahul's Dance Academy
+            div.small Eat, Sleep, Dance Repeat
+        section#missionsection
+            h1 Our Mission
+            div.card#card1
+                h3 Dance Perfection
+                div.card-box
+                    div.card-img
+                        img(src="/static/Images/card1.png", alt="")
+                    div.card-content
+                        p.para Best Dance Academy
+            div.card#card2
+                h3 Dance the way you like
+                div.card-box
+                    div.card-img
+                        img(src="/static/Images/card2.png", alt="")
+                    div.card-content
+                        p.para In your area
+            div.card#card3
+                h3 Expert teaching
+                div.card-box
+                    div.card-img
+                        img(src="/static/Images/card3.png", alt="")
+                    div.card-content
+                        p.para Register Now
+        section#sponsersection
+            h1 Our Sponsers
+            div.sponsers
+                img(src="/static/sponsers/apple.png", alt="")
+                img(src="/static/sponsers/coke.png", alt="")
+                img(src="/static/sponsers/dell.png", alt="")
+                img(src="/static/sponsers/microsoft.png", alt="")
+        footer#footer 
+            | Copyright © RahulDanceAcademy.com | All rights reserved
+        script 
+            include ../static/index.js

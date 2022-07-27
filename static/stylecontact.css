@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@600&display=swap');
+
+.container h1 {
+    text-align: center;
+    margin: 12px 0;
+    font-family: 'Mukta', sans-serif;
+}
+
+.myInput {
+    display: block;
+    width: 50%;
+    margin: 7px 0;
+    padding: 15px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 10px;
+    outline: none;
+}
+
+.myForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 23px 0;
+}
+
+.btn {
+    padding: 7px;
+    width: 92px;
+    font-weight: bold;
+    background-color: #d12323;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 40px;
+    color: #000;
+    cursor: pointer;
+    height: 46px;
+    font-size: 17px;
+}
+
+.btn:hover {
+    background: #000;
+    color: #d12323;
+}
+
+.container {
+    min-height: 77.3vh;
+}

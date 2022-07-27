@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    margin: 0 12px;
+    color: white;
+    font-size: 1.5rem;
+}
+
+#logo img {
+    height: 63px;
+    filter: invert(1);
+}
+
+#navbar {
+    font-family: 'Ibarra Real Nova', serif;
+    padding: 15px 14px;
+    background: #d12323;
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#navbar li {
+    list-style: none;
+}
+
+#navbar li a {
+    text-decoration: none;
+    padding: 13px 30px;
+    color: white;
+    font-size: 1.5rem;
+}
+
+#introsection {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Roboto Slab', serif;
+    font-size: 60px;
+    background: center/cover no-repeat url("/static/Images/bg.jpeg");
+    padding-bottom: 40px;
+    height: 425px;
+}
+
+.small {
+    font-size: 28px;
+    padding: 12px;
+}
+
+#sponsersection {
+    margin: 57px auto;
+    height: 300px;
+}
+
+#sponsersection h1 {
+    text-align: center;
+    padding-top: 23px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    font-size: 38px;
+    
+}
+
+#navbar li a:hover {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+
+}
+
+#missionsection h1 {
+    text-align: center;
+    padding-top: 12px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 38px;
+}
+
+#missionsection {
+    height: 326px;
+    width: 67%;
+    margin: 23px auto;
+}
+
+.card {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 29%;
+    margin: 23px 20px;
+    height: 209px;
+    font-size: 24px;
+    display: inline-block;
+    box-shadow: 12px 12px #a62626;
+    color: #a62626;
+    background: black;
+}
+
+.card h3 {
+    font-family: 'Ibarra Real Nova', serif;
+    text-align: center;
+    margin-top: 23px;
+}
+
+.card-box {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+}
+
+.card-img {
+    height: 131px;
+    padding: 0 14px;
+}
+
+.card-img img {
+    height: 100px;
+    filter: invert(1);
+}
+
+.card-content {
+    padding: 0 20px;
+}
+
+.card-content p {
+    font-size: 29px;
+}
+
+.sponsers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 5px 215px;
+}
+
+#sponsersection img {
+    height: 203px;
+    margin: 12px auto;
+}
+
+#footer {
+    height: 61px;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kanit', sans-serif;
+}

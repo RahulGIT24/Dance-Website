@@ -1,0 +1,20 @@
+doctype html
+html
+  head
+    title #{title}
+    block scripts
+    block style
+  body
+    nav#navbar
+        ul
+            div#logo
+                img(src="/static/Images/new_logo.png", alt="", srcset="")
+                | RDA
+            li #[a(href="http://home")  Home]
+            li #[a(href="http://about")  About]
+            li #[a(href="http://services")  Services]
+            li #[a(href="http:/classinfo")  Class Info]
+            li #[a(href="/views/contact.pug")  Contact Us]
+    block content
+    footer#footer 
+        | Copyright © RahulDanceAcademy.com | All rights reserved
