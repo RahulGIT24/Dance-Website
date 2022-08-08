@@ -2,12 +2,15 @@
 const express = require("express");
 const fs = require("fs");
 const path = require("path");
+const mongoose = require("mongoose");
 
 //! Created an express app
 const app = express();
 
+//! Created a port
+const port = 80;
+
 //* Mongoose Stuff
-const mongoose = require("mongoose");
 
 main().catch((err) => console.log(err));
 
@@ -26,9 +29,6 @@ const contactSchema = new mongoose.Schema({
 });
 
 const Contact = mongoose.model("contact", contactSchema);
-
-//! Created a port
-const port = 80;
 
 //! Express Stuff
 app.use("/static", express.static("static"));
