@@ -1,6 +1,5 @@
 //! Imported Modules
 const express = require("express");
-const fs = require("fs");
 const path = require("path");
 const mongoose = require("mongoose");
 
@@ -16,7 +15,6 @@ main().catch((err) => console.log(err));
 
 async function main() {
   await mongoose.connect("mongodb://localhost:27017/contactDance");
-  console.log("We are Connected");
 }
 
 //* Defining Mongoose Schema
