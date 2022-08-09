@@ -9,7 +9,7 @@ const app = express();
 //! Created a port
 const port = 80;
 
-//* Mongoose Stuff
+//! Mongoose Stuff
 
 main().catch((err) => console.log(err));
 
